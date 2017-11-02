@@ -1,0 +1,114 @@
+/* GLOBAL */
+
+*{
+	box-sizing: border-box;
+}
+
+#page {
+	font-family: helvetica, arial, sans-serif;
+	background:url(images/metal.png);
+}
+
+
+/* NAVBAR */
+#top {
+	display: inline;
+}
+
+#branding p {
+	text-transform: uppercase;
+	
+	font-size: 35px;
+	float: left;
+	margin: 20px 0px 20px 20px;
+
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li {
+	display: inline;
+	float: right;
+	padding: 0 20px 0 20px;
+	margin-top: 25px
+}
+
+nav {
+	color: white;
+	background: darkblue;
+	border: 3px grey groove;
+	height: 75px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color:lightgrey;
+}
+
+/* Masthead + cta (no background picture) */
+
+div #title {
+	height: 400px;
+	background: url(images/demolition.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .5;
+	margin: 0;
+	padding: 0;
+}
+
+#title p {
+	text-align: center;
+	color:black;
+	font-size: 50px;
+	margin-top: 20px;
+	padding-top: 100px;
+	opacity: 1;
+}
+
+#title input {
+	margin-left: 50%;
+	margin-top: 30px;
+	opacity: 1;
+}
+
+
+
+/* Text section */
+
+.container h1 {
+	text-align: center;
+	padding-top: 45px;
+}
+
+.container p {
+	text-align: center;
+	padding: 0 15% 5vh 15%;
+	line-height: 1.5;
+}
+
+/* Services section (grid display) */ 
+
+div .context {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2em;
+	margin:0 10% 0 10%;
+}
+
+/* footer */
+
+footer {
+	color: white;
+	background: darkblue;
+	border: 3px grey groove;
+	height: 75px;
+}
